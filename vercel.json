@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "abel-portfolio-app/index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "abel-portfolio-app/index.html"
+    }
+  ]
+}
